@@ -3,10 +3,10 @@ import view as v
 
 def exp():
     with open('Python_seminar_7/data_1.txt', 'a', encoding='utf_8') as file:
-        file.write(log.mod_1())
+        file.write(log.mod_1() + '\n')
 
     with open('Python_seminar_7/data_2.txt', 'a', encoding='utf_8') as file:
-        file.write(log.mod_2())
+        file.write(log.mod_2() + '\n\n')
 
 def imp():
     path = 'Python_seminar_7/data_1.txt'
