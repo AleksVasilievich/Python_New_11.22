@@ -43,9 +43,9 @@ def calaulate(data):
             data = data[:index - 1] + [result] + data[index + 2:]
     return result
 
-stroka = input()
+# stroka = text
 # stroka = '21+3*2+8/2-7'
 # print(line(stroka))
-
+# 
 # res = line(stroka)
 # print(calaulate(res))
